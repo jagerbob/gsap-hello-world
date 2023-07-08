@@ -1,6 +1,6 @@
 import styles from './Cube.module.scss';
 import { useAnimations } from './Cube.animations'
-import { UnderlinedButton } from '../forms/buttons/UnderlinedButton';
+import { UnderlinedButton } from '../../forms/buttons/UnderlinedButton';
 
 export const Cube = () => {
     const { rotate } = useAnimations();
