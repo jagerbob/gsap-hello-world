@@ -1,0 +1,20 @@
+.underlinedBtn {
+    width: auto;
+    cursor: pointer;
+    overflow-x: hidden;
+
+    .btn {
+        color: var(--contrast);
+        background-color: transparent;
+        border: none;
+        font-family: 'Montserrat Regular', sans-serif;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .underline {
+        width: auto;
+        height: 3px;
+        background-color: var(--contrast);
+    }
+}
